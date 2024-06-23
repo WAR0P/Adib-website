@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Movie: Howl's Moving Castle</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional CSS for video and image styling */
+        .trailer {
+            text-align: center; /* Center-align the content inside .trailer */
+            margin-bottom: 20px;
+        }
+
+        .images {
+            text-align: center; /* Center-align the content inside .images */
+        }
+
+        .image-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout for images */
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for images */
+        }
+
+        /* Improved Navigation Bar Styling */
+        header {
+            background-color: #333; /* Dark background color for the header */
+            padding: 10px 0; /* Padding around the navigation */
+        }
+
+        nav ul {
+            list-style-type: none; /* Remove default list styling */
+            text-align: center; /* Center-align the navigation links */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+
+        nav ul li {
+            display: inline; /* Display navigation items inline */
+            margin-right: 20px; /* Space between navigation items */
+        }
+
+        nav ul li a {
+            color: #fff; /* White text color for navigation links */
+            text-decoration: none; /* Remove underline from links */
+            font-size: 18px; /* Font size for navigation links */
+            padding: 5px 10px; /* Padding inside each link */
+            transition: all 0.3s ease; /* Smooth transition for hover effects */
+        }
+
+        nav ul li a:hover {
+            background-color: #555; /* Darken background color on hover */
+            border-radius: 5px; /* Rounded corners on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="favorite movie.html">Favorite Movie</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="skill.html">Skill</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>My Favorite Movie: Howl's Moving Castle</h1>
+
+        <div class="summary">
+            <h2>Summary</h2>
+            <p>Howl's Moving Castle is a Japanese animated fantasy film directed by Hayao Miyazaki, based on the novel by Diana Wynne Jones. The story follows Sophie, a young woman transformed into an elderly woman by a witch's curse, who seeks the help of the wizard Howl, who lives in a magical moving castle.</p>
+        </div>
+
+        <div class="trailer">
+            <h2>Watch the Trailer</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iwROgK94zcM" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="images">
+            <h2>Gallery</h2>
+            <div class="image-container">
+                <img src="images/mosshowlsmcarchive_thumb_7650483f-350d-4a0b-ab90-b4853dc983c3.jpeg" alt="Howl's Moving Castle Image 1">
+                <img src="images/maxresdefault.jpg" alt="Howl's Moving Castle Image 2">
+                <img src="images/Howls-moving-castleposter.jpg" alt="Howl's Moving Castle Image 3">
+                <!-- Add more images as needed -->
+            </div>
+        </div>
+
+        <div class="references">
+            <h2>References</h2>
+            <ul>
+                <li><a href="https://www.imdb.com/title/tt0347149/" target="_blank">IMDB - Howl's Moving Castle</a></li>
+                <li><a href="https://www.rottentomatoes.com/m/howls_moving_castle" target="_blank">Rotten Tomatoes- Howl's Moving Castle</a></li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
